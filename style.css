@@ -1,0 +1,70 @@
+.container {
+    width: 300px;
+    height: 500px;
+    /* background-color: red; */
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 20px grey;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.searchBar{
+    height:25%;
+    background-color: rgb(76, 76, 199);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+.searchBar h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.searchBar p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.searchInput{
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    background-color:#2B3D99;
+    color: #756C81;
+    padding: 0 15px;
+}
+.results{
+    /* overflow: scroll; */
+}
+.list li {
+    list-style: none;
+    border-bottom: 1px solid #b8b4b41f;
+    padding-left: 20px;
+}
+.list li:last-child{
+    border: none;
+}
+.list {
+    padding-left: 0;
+}
+.userPicture{
+    width: 70px;
+    height: 70px;
+    border-radius:50px;
+}
+.userName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:0;
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textWrap{
+    padding-right: 50px;
+}

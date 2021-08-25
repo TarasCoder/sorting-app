@@ -36,9 +36,6 @@
     color: #756C81;
     padding: 0 15px;
 }
-.results{
-    /* overflow: scroll; */
-}
 .list li {
     list-style: none;
     border-bottom: 1px solid #b8b4b41f;
@@ -69,3 +66,11 @@
 .textWrap{
     padding-right: 50px;
 }
+.loadingClass{
+    padding-left: 30px;
+    font-weight: 600;
+    font-size:20px;
+}
+.hide {
+    display: none;
+  }
